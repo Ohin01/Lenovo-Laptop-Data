@@ -1,0 +1,184 @@
+//Driver Code Starts
+#include<iostream>
+#include<vector>
+using namespace std;
+
+// Node structure
+class Node {
+public:
+    int data;
+    Node* left, *right;
+    Node (int x) {
+        data = x;
+        left = nullptr;
+        right = nullptr;
+    }
+};
+//Driver Code Ends
+
+// Function to perform inorder traversal of a BST
+// Stores elements in sorted order in the given vector
+void inorder(Node* root, vector<int>& arr) {
+    if (!root) return;
+    inorder(root->left, arr);
+    arr.push_back(root->data);
+    inorder(root->right, arr);
+}
+
+// Function to merge two sorted arrays into one sorted array
+vector<int> mergeArrays(vector<int>& arr1, vector<int>& arr2) {
+    vector<int> result;
+    int i = 0, j = 0;
+    
+    // Traverse both arrays and pick the smaller element
+    while (i < arr1.size() && j < arr2.size()) {
+        if (arr1[i] <= arr2[j]) {
+            result.push_back(arr1[i++]);
+        } 
+        else {
+            result.push_back(arr2[j++]);
+        }
+    }
+    
+    while (i < arr1.size()) result.push_back(arr1[i++]);
+    
+    while (j < arr2.size()) result.push_back(arr2[j++]);
+    
+    return result;
+}
+
+// Function to merge elements of two BSTs into a single sorted list
+vector<int> merge(Node *root1, Node *root2) {
+    vector<int> arr1, arr2;
+    
+    // Get inorder traversal of both BSTs
+    inorder(root1, arr1);
+    inorder(root2, arr2);
+    
+    return mergeArrays(arr1, arr2);
+}
+
+//Driver Code Starts
+int main() {
+    
+    // Create binary tree 1
+    //           3
+    //         /   \
+    //       1      5
+    Node* root1 = new Node(3);
+    root1->left = new Node(1);
+    root1->right = new Node(5);
+    
+    // Create binary tree 2
+    //           4
+    //         /   \
+    //       2      6
+    Node* root2 = new Node(4);
+    root2->left = new Node(2);
+    root2->right = new Node(6);
+    
+    vector<int> res = merge(root1, root2);
+    for (auto val: res) cout << val << " ";
+    cout << endl;
+    return 0;
+}
+//Driver Code Ends
+
+
+//Driver Code Starts
+#include<iostream>
+#include<vector>
+#include<stack>
+using namespace std;
+
+// Node structure
+class Node {
+public:
+    int data;
+    Node* left, *right;
+    Node (int x) {
+        data = x;
+        left = nullptr;
+        right = nullptr;
+    }
+};
+//Driver Code Ends
+
+vector<int> merge(Node *root1, Node *root2) {
+    vector<int> res;
+    stack<Node*> s1, s2;
+    
+    while (root1 || root2 || !s1.empty() || !s2.empty()) {
+        
+        // move to the leftmost nodes(min values)
+        while (root1) {
+            s1.push(root1);
+            root1 = root1->left;
+        }
+        
+        while (root2) {
+            s2.push(root2);
+            root2 = root2->left;
+        }
+        
+        // compare the top element and remove 
+        // it and move to its right child
+        if (s2.empty() || (!s1.empty() && s1.top()->data <= s2.top()->data)) {
+            root1 = s1.top();
+            s1.pop();
+            res.push_back(root1->data);
+            root1 = root1->right;
+        } 
+        else {
+            root2 = s2.top();
+            s2.pop();
+            res.push_back(root2->data);
+            root2 = root2->right;
+        }
+    }
+    return res;
+}
+
+//Driver Code Starts
+int main() {
+    
+    // Create binary tree 1
+    //           3
+    //         /   \
+    //       1      5
+    Node* root1 = new Node(3);
+    root1->left = new Node(1);
+    root1->right = new Node(5);
+    
+    // Create binary tree 2
+    //           4
+    //         /   \
+    //       2      6
+    Node* root2 = new Node(4);
+    root2->left = new Node(2);
+    root2->right = new Node(6);
+    
+    vector<int> res = merge(root1, root2);
+    for (auto val: res) cout << val << " ";
+    cout << endl;
+    return 0;
+}
+//Driver Code Ends
+[Approach - 2] Using Stack - O(n + m) Time and O(n + m) Space
+The idea is to simulate the inorder traversal of both trees simultaneously using two stacks, comparing the current minimum elements from both trees at each step and selecting the smaller one to add to the result.
+
+Step by step approach:
+
+Push all left nodes of both trees onto their respective stacks until reaching leftmost nodes.
+Compare the top elements of both stacks to determine which has smaller value.
+Pop the smaller element, add it to result, and move to its right subtree.
+Repeat the process until both stacks are empty and no more nodes to process.
+Why using Stack?
+
+We can’t use recursion here because it’s not possible to traverse both trees simultaneously — recursion can only process one call stack at a time. In other words, we can’t pause recursion in one tree, switch to the other, and then resume.
+To handle both traversals together and compare nodes dynamically (for example, to stop when one node’s value exceeds the other’s), we use an iterative approach with stacks.
+
+
+
+
+
