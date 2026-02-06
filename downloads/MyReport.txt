@@ -1,0 +1,34 @@
+-Trap room
+-features,rondomize, tiling, grid, 
+-Contribution
+
+Twinforge Inferno:
+
+This is the first trap room of the main game. In this game-level, Gengar confronts with the guilt, one of the dark feelings, disguised as Dark Gengar. The 
+goal is to kill the Dark Gengar and get out of the lava room within a specific time. The features of this level are described below:
+
+GridWise Mapping:
+This level is made on a 11X11 grid-system,implemented using 2D array. Every type of tile(e. stone tile, magma tile, switch) is represented by their corresponding number in the array. 
+
+Mirror Movement of the characters:
+There are two characters: Gengar and Dark Gengar. Each character is characterized by position, velocity, visibility and health. Their gridwise movement is
+controlled via keyboard (WSAD or arrows) with the mirror movement of the Dark Gengar.
+
+Randomizing switch and position of the door:
+rand() and srand() are used for generating random sequences of button number of switches. This is also done for the spawning of the door at random position. 
+
+Active and inactive switch:
+The change of random inactive switch to active swtch in the grid-system is handled here.
+
+Magma pop-up and Door pop-up:
+They dissappear after a specific time and again show up when triggered.
+
+Collectables:
+There are 10 firestones in this game. Gengar have to collect these items. The dissappearing of the firestones after being collected by Gengar is handled by grid manupulation and
+rendering.
+
+Collsion:
+The collision between characters and falling of characters into lava are handled in this level.
+
+
+

@@ -1,0 +1,36 @@
+Ariba Hasan
+
+1. Trap Room 1 (Twinforge Inferno)
+2. UI Pop-up
+3. UI button
+4. Enemy movement (Fixed path) and collision
+5. UI button position and calculation
+
+Nahian Ash-hab
+
+1. Trap Room 2 (Glacial Pitfall)
+2. UI Pop-up
+3. UI button
+4. UI Implementation
+5. Enemy Movement (Static Shooter, Follower) and wall collision 
+6. Camera (Main Map)
+
+Mashfikuzzaman Taeen:
+
+1. Trap Room 3 (Voltbound Cryptic Dungeon)
+2. Leaderboard
+3. Portal logic and UI-Main Map-Trap Rooms code attachments
+4. Timer, font, graphics.
+5. Game Win, Game Over, Name Input handling
+6. Final boss Movement 
+
+Sara Binte Shafayet:
+
+1. Trap Room 4 (Thorned Threshold)
+2. Main Map, UI and graphics design 
+3. Debugging
+4. Music and Sound button Activation
+5. Animation 
+
+
+

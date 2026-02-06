@@ -1,0 +1,21 @@
+Project: "Gengar Escape: Whisper of Forbidden Memories" (Game)
+
+It is a mouse controlled game where the player have to avoid traps and enemies, shoot enemies and solve cryptography riddles and puzzles. The player will have a health bar, will collect healing potions along the way.
+Goal: collect item within shortest time possible to stay on top of leaderboard
+
+Game Concept
+
+Traps (Room-specific): There will be 4 rooms with specific attributes: Moving lava tiles, weak tiles, wall spikes, and laser maze.
+
+Tasks:
+----Solve riddles and puzzles to open door locks.
+----Collect an item "Gengarite" before moving on.
+----Riddles are randomized so that in case of multiple playthroughs the game is not monotonous.
+
+Kills enemies:
+Four enemies- static and shooter, follower and shooter, moves in a fixed path, circular shooter and follower (final boss).
+
+Timing and scoring:
+Priority of time and gengarites will be based on weighted average making sure both are equally prioritized.
+Time and gengarite count will be recorded for leaderboard.
+

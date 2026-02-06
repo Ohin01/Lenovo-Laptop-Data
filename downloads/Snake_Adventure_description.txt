@@ -1,0 +1,28 @@
+Project Title: Snake Adventure (Game)
+
+Description: It is similar to endless runner game, where the protagonist is a snake who 
+keeps crawling avoiding obstacles. There will be no levels. The snake is shown on the
+screen moving along the ground, from left to right on the screen, and the background will
+be shown seemingly moving backwards. The player can move the snake vertically, simply by pressing the 
+up and down arrow keys, which makes the snake to crawl on the other path. In this way, the
+snake can avoid obstacles. There will be multiple paths for changing the lane for crawling. 
+There will be healthpoints, and it will reduce by one on confronting the obstacle. But if 
+the snake faces a death trap, then it will be game over (the whole healthpoint will be lost).
+The players can also collect one healthpoint to restore the health, however it will spawn
+less. They can also collect the sheild power which protects them from obstacles and will
+last for few moments.
+
+The scoring will be made based on the crossed distance and the collected points(collected 
+points will be shown as fruits or coins). There is also an arrangement for leaderboard 
+for keeping the highest record. The player has two themes to choose for playing: 
+							 1. Forest Theme
+							 2. Desert Theme
+In the forest theme, the snake will be shown moving on the ground in the jungle, leaves will
+be shown scattered on the ground. The obstacles include stones, wooden logs, spike plant,
+hunter traps and so on. The death trap will be shown on the ground as the red cross sign. 
+It indicates the target of the eagle. The snake will be attacked by the eagle, if it crosses
+that red cross sign and the game will be over. 
+
+In the desert theme, the player can move the snake on the sand. Cactus, stones etc will be 
+usual obstacles. The death trap will be the hunter trap and the functionality will be
+same. 

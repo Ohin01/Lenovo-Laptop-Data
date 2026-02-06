@@ -1,0 +1,163 @@
+Game: "Gengar Escape: Whisper of Forbidden Memories"
+
+Story:
+Gengar was once the favorite and main Pokémon of his trainer, Sekmuxib. The two shared countless battles, victories, and an unbreakable bond. To Gengar, Sekmuxib was more than just a trainer — he was a true partner and friend.
+
+One day, during a wild encounter with a powerful Pokémon — Dragapult, one of the most fearsome Ghost-types — Sekmuxib used Gengar in a tough battle to capture it. They succeeded, but what followed was unexpected. Gradually, Dragapult became Sekmuxib’s new favorite. Gengar, once the center of his trainer’s attention, began to feel ignored… forgotten.
+
+Out of jealousy and heartbreak, Gengar confronted Dragapult one day while Sekmuxib was away. In a brutal surprise attack, he tried to defeat the new favorite — but failed. When Sekmuxib found out about the incident, he was furious. Feeling betrayed, he made a cruel decision: to abandon Gengar.
+
+There was an old, mysterious castle on the edge of Lavender Town, known in whispered legends as "The Whispers of Forbidden Memories." Locals believed it to be cursed — a place where the souls of dead and abandoned Pokémon lingered. According to myth, within its decaying halls lived ghostly spirits known as the Whisperers, who would fill the ears of forsaken Pokémon with hateful and poisonous thoughts. These whispers grew inside their victims, turning sorrow into rage, and pain into fury — until they could no longer leave. The castle became their home, and their prison.
+
+Sekmuxib, who never believed in these tales, took Gengar to the castle and left him there — promising to return, though he had no intention of keeping that promise.
+
+Gengar waited.
+
+Days turned into months. Months into years.
+
+The once playful, jolly Gengar began to wither emotionally — becoming sorrowful, broken, and angry. The Whisperers were real. They spoke to Gengar endlessly, fueling his misery with lies and painful truths alike. His sorrow slowly transformed into wrath.
+
+Within the castle, a powerful stone known as Gengarite began to appear. The Whisperers told Gengar that collecting enough of it would allow him to evolve into Mega Gengar — something even stronger, something unstoppable. But this time, Gengar had no interest in evolution for power’s sake.
+
+Fueled by years of abandonment and betrayal, he made a decision: he would collect the Gengarite and escape the castle — not to find his trainer, but to take revenge.
+
+But to do so, he must face a maze of traps, puzzles, and enemies — all manifestations of his own subconscious. The castle, feeding off his tortured mind, has turned his darkest thoughts into the very obstacles he must overcome.
+
+Gengar sets off, determined to break free.
+
+
+(for part 2, jodi kokhono banai in future)
+But little did he know…
+what shock awaits him in the outside world.
+
+
+
+
+🎮 Game Concept
+
+🧩 Level One: The Maze of Trials
+🔍 Overview:
+
+----Maze area with 4 rooms full of traps and tasks.
+
+----To reach Level Two, player must complete all rooms, solve a riddle, and collect a key.
+
+----Collect Gengarite along the way.
+
+
+
+----No backtracking to previous rooms once passed to collect gengarites again
+
+⚠️ Traps (Room-specific):
+
+• Room 1 – Moving Lava Tiles
+
+Touching lava decreases health.
+
+• Room 2 – Weak Tiles Puzzle
+
+Step once ➤ tile cracks.
+
+Step again ➤ tile collapses, Gengar dies.
+
+Puzzle room to safely collect Gengarite.
+
+• Room 3 – Wall Spikes
+
+Spikes close from both sides in a fixed tempo.
+
+Getting trapped ➤ death and restart from beginning.
+
+• Room 4 – Laser Maze
+
+Touching a laser ➤ instant death and restart.
+laser goes on and off in a specific time period
+
+🧠 Tasks:
+
+----Solve riddles and puzzles to open door locks.
+
+----Collect Gengarite before moving on.
+
+----Find the key in Room 4 to unlock the door to Level Two.
+
+----📦 The trunk with the riddle and key is at the start of Room 4.
+
+----🔐 The riddle opens a number lock. If solved, the key to Level Two is revealed.
+
+----📜 Riddles are randomized and based on cryptography / CTF-style puzzles. There will be 15 to 20 puzzle randomized for the doors so that in case of multiple playthroughs the game is not monotonous.
+
+🏰 Level Two: The Haunted Castle
+🔍 Overview:
+
+A 2D maze-like haunted area.
+
+EIn every room there is a timer. If player does not get out of room within time, the room will collapse.
+
+Fight enemies, reach the final boss.
+
+Complete within time, or the castle collapses ➤ restart from beginning of Level Two.
+
+👾 Enemies:
+
+• Mimikyu (Type 1)
+
+---Auto-moves in a fixed path.
+
+----Cannot be killed.
+
+----Must be avoided.
+
+• Alakazam (Type 2)
+
+----Static, throws Psybeams at Gengar's position.
+
+----Can be killed, has a health bar.
+
+• Darkrai (Type 3)
+
+----Follows Gengar and fires Dark Pulse.
+
+----Can be killed, has a health bar.
+
+• Final Boss – Mega Gengar (Type 4)
+
+----A terrifying version of Gengar created by his sorrow, wrath, and fear.
+
+----Follows Gengar and shoots Will-o-Wisp fireballs in a circular pattern.
+
+----Can be killed, has a huge health bar.
+
+----Represents Gengar’s inner emotional battle.
+
+🧰 Collectible Items
+• Health Bar
+
+----Decreases when hit or touched by enemy attacks.
+
+----If health reaches 0 ➤ restart from current level.
+
+----Healing Potion: Rare spawn that restores health.
+
+• Shadow Ball
+
+----Can be collected and used as a weapon to kill enemies.
+
+• Gengarite
+
+----Collect as fast as possible for a higher leaderboard score.
+
+----Randomly spawns.
+
+----Stops spawning once Alakazam, Darkrai, and Mega Gengar are defeated.
+
+
+Timing:
+
+In level one,
+time for each room will be recorded, considered for leaderboard. 
+In level two, there will a castle collapse countdown and time recording.
+Player has to finish level 2 balancing between time and collecting gengarites to stay on top of leaderboard.
+Priority of time and gengarites will be based on weighted average making sure both are equally prioritized.
+Time and gengarite count will be recorded for leaderboard
+

@@ -1,0 +1,148 @@
+Game: "Gengar Escape: Whisper of Forbidden Memories"
+
+Game on avoiding traps and enemies,shooting enemies and solving cryptography riddles and puzzles.
+Goal: collect gengarities within shortest time possible to stay on top of leaderboard
+
+
+
+
+
+🎮 Game Concept
+
+🧩 Level One: The Maze of Trials
+🔍 Overview:
+
+----Maze area with 4 rooms full of traps and tasks.
+
+----To reach Level Two, player must complete all rooms, solve a riddle, and collect a key.
+
+----Collect Gengarite along the way.
+
+----No backtracking to previous rooms once passed to collect gengarites again
+
+⚠️ Traps (Room-specific):
+
+• Room 1 – Moving Lava Tiles
+
+Touching lava decreases health.
+
+• Room 2 – Weak Tiles Puzzle
+
+Step once ➤ tile cracks.
+
+Step again ➤ tile collapses, Gengar dies.
+
+Puzzle room to safely collect Gengarite.
+
+• Room 3 – Wall Spikes
+
+Spikes close from both sides in a fixed tempo.
+
+Getting trapped ➤ death and restart from beginning.
+
+• Room 4 – Laser Maze
+
+Touching a laser ➤ instant death and restart.
+laser goes on and off in a specific time period
+
+🧠 Tasks:
+
+----Solve riddles and puzzles to open door locks.
+
+----Collect Gengarite before moving on.
+
+----Find the key in Room 4 to unlock the door to Level Two.
+
+----📦 The trunk with the riddle and key is at the start of Room 4.
+
+----🔐 The riddle opens a number lock. If solved, the key to Level Two is revealed.
+
+----📜 Riddles are randomized and based on cryptography / CTF-style puzzles. There will be 15 to 20 puzzle randomized for the doors so that in case of multiple playthroughs the game is not monotonous.
+
+🏰 Level Two: The Haunted Castle
+🔍 Overview:
+
+A 2D maze-like haunted area.
+
+EIn every room there is a timer. If player does not get out of room within time, the room will collapse.
+
+Fight enemies, reach the final boss.
+
+Complete within time, or the castle collapses ➤ restart from beginning of Level Two.
+
+👾 Enemies:
+
+• Mimikyu (Type 1)
+
+---Auto-moves in a fixed path.
+
+----Cannot be killed.
+
+----Must be avoided.
+
+• Alakazam (Type 2)
+
+----Static, throws Psybeams at Gengar's position.
+
+----Can be killed, has a health bar.
+
+• Darkrai (Type 3)
+
+----Follows Gengar and fires Dark Pulse.
+
+----Can be killed, has a health bar.
+
+• Final Boss – Mega Gengar (Type 4)
+
+----A terrifying version of Gengar created by his sorrow, wrath, and fear.
+
+----Follows Gengar and shoots Will-o-Wisp fireballs in a circular pattern.
+
+----Can be killed, has a huge health bar.
+
+----Represents Gengar’s inner emotional battle.
+
+🧰 Collectible Items
+• Health Bar
+
+----Decreases when hit or touched by enemy attacks.
+
+----If health reaches 0 ➤ restart from current level.
+
+----Healing Potion: Rare spawn that restores health.
+
+• Shadow Ball
+
+----Can be collected and used as a weapon to kill enemies.
+
+• Gengarite
+
+----Collect as fast as possible for a higher leaderboard score.
+
+----Randomly spawns.
+
+----Stops spawning once enemies are defeated.
+
+
+Timing:
+
+In level one,
+time for each room will be recorded, considered for leaderboard. 
+In level two, there will a castle collapse countdown and time recording.
+Player has to finish level 2 balancing between time and collecting gengarites to stay on top of leaderboard.
+Priority of time and gengarites will be based on weighted average making sure both are equally prioritized.
+Time and gengarite count will be recorded for leaderboard
+
+
+Features:
+1.Health Bar
+2.Healing potion
+3.shooting shadow ball, reloading shadow balls (auto)
+4.Solving puzzle and riddles to open doors
+5.Solving cryptography to advance to next level
+6.control by mouse movement, shoot through click.
+7. Static+shooter enemy, moving in fixed path enemy, follower and shooter enemy, final boss (follower+ shooter)
+8. moving lava tiles trap, closing spike wall trap, weak tiles trap, laser beam trap
+9. spawning gengarites, spawning healing potion
+10.Leaderboard based on minimum time and maximum gengarite
+11. Room closed once passed, can't go back.

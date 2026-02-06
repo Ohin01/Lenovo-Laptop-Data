@@ -1,0 +1,31 @@
+Project Title: Lost In DinoLand (Game)
+
+Description:
+Lost In DinoLand is a side-scrolling platformer game, where the player navigates through challenging environments, fights dinosaurs, and collects items to progress. The game consists of three levels: Land, Water, and Cave.
+
+In each level, the player must defeat or avoid incoming dinosaurs while reaching the end of the level. Dinosaurs act as enemies that appear at varying intervals and must be tackled using available weapons or strategic movement.
+
+The player is equipped with four types of weapons: Sword (close range and always equipped), Guns and harpoons (Limited Ammunition), Grenades (explodes after certain time)
+The player can collect ammo pickups scattered across the level.
+
+Level-Specific Gameplay:
+Land Level: The player can run, jump between platforms, collect coins, and use guns or grenades to fight off dinosaurs. The level ends when the player reaches a designated endpoint.
+
+Water Level: The gameplay changes to multi-directional movement (up, down, left, right) as the player swims through underwater terrain. The harpoon is used to attack sea dinosaurs,
+
+Cave Level: Similar to the land level but with darker aesthetics and more complex platforming. Both guns and grenades are usable.
+
+Scoring System:
+The player's score is determined by:
+
+Completion Time: Faster level completion results in a better score.
+
+Coins Collected: Coins are placed strategically throughout each level and add to the final score.
+
+Dinosaurs Defeated: Killing dinosaurs with weapons increases the score and slightly reduces the total completion time.
+
+At the end of the final level, the player will face a boss dinosaur with a large health bar. Defeating the boss using the available weapons is necessary to complete the game.
+
+The game also includes a leaderboard system that tracks and displays the highest scores achieved by players, based on level completion time, enemies defeated, and coins collected.
+
+
