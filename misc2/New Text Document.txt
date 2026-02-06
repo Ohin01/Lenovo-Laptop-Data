@@ -1,0 +1,24 @@
+1. Lost In Dinoland: + CONTRA CONCEPT
+
+- 3 levels with different graphics: land, under water, cave 
+- character will have 3 different functional weapons: Gun, grenades, harpoon (water)
+- ***WORKING*** (level e ki hobe, ki korte hobe)
+
+
+2. PUMPKIN ESCAPE + ESCAPE ROOM CONCEPT
+
+- Riddle solving
+- finding keys
+- gun firing
+- wall create
+- destroying walls to find keys
+- traps (trap adventure game)
+
+
+3. FIRST PERSON SHOOTER GAME (KRUNKER)
+
+- 3D graphics to be converted 2D graphics (EXPLAIN IT PROPERLY)
+- Funnerectic
+
+
+4. ???????????
